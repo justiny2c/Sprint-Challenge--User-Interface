@@ -220,3 +220,44 @@ footer nav a {
     text-decoration: none;
     color: black;
 }
+
+/* about page */
+
+.container-about-page {
+    border-bottom: 1px dashed black;
+    width: 67%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 200px;
+    padding-bottom: 40px;
+}
+
+.strat-boxes1 {
+    margin-left: 200px;  
+    padding-bottom: 40px;
+    width: 67%;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.strat-boxes2 {
+    margin-left: 200px;  
+    padding-bottom: 40px;
+    height: 200px;
+    width: 67%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.strat-boxes1 div {
+    padding: 20px;
+    width: 37%;
+}
+
+.strat-boxes2 div{
+    padding: 20px;
+    width: 37%;
+}
