@@ -236,7 +236,7 @@ footer nav a {
     margin-left: 200px;  
     padding-bottom: 40px;
     width: 67%;
-    height: 200px;
+    height: 600px;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -245,7 +245,7 @@ footer nav a {
 .strat-boxes2 {
     margin-left: 200px;  
     padding-bottom: 40px;
-    height: 200px;
+    height: 600px;
     width: 67%;
     display: flex;
     flex-flow: column wrap;
@@ -255,9 +255,23 @@ footer nav a {
 .strat-boxes1 div {
     padding: 20px;
     width: 37%;
+    border-bottom: 1px dashed black;
 }
 
 .strat-boxes2 div{
     padding: 20px;
     width: 37%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.end {
+    margin-left: 200px;
+    width: 67%;
 }
