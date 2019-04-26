@@ -148,7 +148,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     align-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
@@ -168,19 +168,20 @@ footer nav a {
 
 .boxes{
     display: flex;
-    justify-content: between;
-    align-content: flex-start;
+    justify-content: space-between;
+    align-content: space-around;
     align-items: center;
     flex-flow: row wrap;
 }
 
 .boxes div {
-    height: 85px;
-    width: 85px;
+    height: 100px;
+    width: 100px;
     border: 1px solid black;
     text-align: center;
     align-items: center;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
 }
 .box1 {
     background: teal;
@@ -234,44 +235,49 @@ footer nav a {
 
 .strat-boxes1 {
     margin-left: 200px;  
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     width: 67%;
-    height: 600px;
+    height: 480px;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
+    border-bottom: 1px dashed black;
 }
 
 .strat-boxes2 {
     margin-left: 200px;  
-    padding-bottom: 40px;
-    height: 600px;
+    padding-bottom: 20px;
+    height: 480px;
     width: 67%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
+    border-bottom: 1px dashed black;
 }
 
 .strat-boxes1 div {
     padding: 20px;
     width: 37%;
-    border-bottom: 1px dashed black;
 }
 
 .strat-boxes2 div{
     padding: 20px;
     width: 37%;
-    border-bottom: 1px dashed black;
 }
 
 button {
     width: 100px;
     margin-top: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
-
 .end {
     margin-left: 200px;
+    margin-top: 20px;
     width: 67%;
+}
+
+.end p {
+    padding-bottom: 40px;
 }
