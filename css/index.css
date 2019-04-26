@@ -87,6 +87,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    height: 350px;
     border-bottom: 1px dashed black;
 }
 
@@ -126,6 +127,18 @@ p {
     padding-right: 0;
 }
 
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    width: 800px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -136,6 +149,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +157,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.header-img {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: between;
+    align-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.boxes div {
+    height: 85px;
+    width: 85px;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold
+}
+.box3 {
+    background: cadetblue }
+    
+.box4 {
+        background: coral }
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid}
+
+.box8 {
+    background: hotpink
+}
+
+.box9 {
+    background: indigo
+}
+
+.box10 {
+    background: dodgerblue
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
 }
