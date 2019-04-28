@@ -87,6 +87,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    height: 350px;
     border-bottom: 1px dashed black;
 }
 
@@ -126,6 +127,18 @@ p {
     padding-right: 0;
 }
 
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    width: 800px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -135,7 +148,8 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    align-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +157,128 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.header-img {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.boxes div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold
+}
+.box3 {
+    background: cadetblue }
+    
+.box4 {
+        background: coral }
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid}
+
+.box8 {
+    background: hotpink
+}
+
+.box9 {
+    background: indigo
+}
+
+.box10 {
+    background: dodgerblue
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+}
+
+/* about page */
+
+.container-about-page {
+    border-bottom: 1px dashed black;
+    width: 67%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 200px;
+    padding-bottom: 40px;
+}
+
+.strat-boxes1 {
+    margin-left: 200px;  
+    padding-bottom: 20px;
+    width: 67%;
+    height: 480px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black;
+}
+
+.strat-boxes2 {
+    margin-left: 200px;  
+    padding-bottom: 20px;
+    height: 480px;
+    width: 67%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black;
+}
+
+.strat-boxes1 div {
+    padding: 20px;
+    width: 37%;
+}
+
+.strat-boxes2 div{
+    padding: 20px;
+    width: 37%;
+}
+
+button {
+    width: 100px;
+    margin-top: 20px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.end {
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 67%;
+}
+
+.end p {
+    padding-bottom: 40px;
 }
